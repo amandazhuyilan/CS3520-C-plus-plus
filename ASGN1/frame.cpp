@@ -1,3 +1,6 @@
+/* This program reads in lines of text from the file named frame_input.txt (in the same folder as the executable) until end of file, and then prints the text that was read in with a square frame of * characters around the text, horizontally separated by at least one space. If the input file cannot be opened or read, the program prints File error to standard error and exits. 
+*/
+
 #include <stdio.h>
 #include <fstream>
 #include <iostream>
@@ -28,7 +31,7 @@ int main(){
         }
     }
     else
-        cout << "no files found!" << endl;
+        cout << "File error" << endl;
     
     int max_size = max_string(input_lines);
     

@@ -6,6 +6,9 @@
 //  Copyright © 2018 Amanda Zhu. All rights reserved.
 //
 
+/* This program prints out the first 25 Fibonacci numbers. Fibonacci numbers are defined as Fi = Fi-1 + Fi-2, with F0 = 1 and F1 = 1. Use a recursive function to compute the Fibonacci numbers.
+*/
+
 #include <stdio.h>
 #include <iostream>
 using namespace std;

@@ -6,6 +6,9 @@
 //  Copyright © 2018 Amanda Zhu. All rights reserved.
 //
 
+/* This program prints out the numbers between 1 and 100 on each line; however, for numbers that are multiples of 3 it prints “Fizz” instead of the number, numbers that are multiples of 5 it prints “Buzz” instead of the number, and for numbers that are multiples of both 3 and 5 it prints “FizzBuzz” instead of the number.
+*/
+
 #include <stdio.h>
 #include <iostream>
 using namespace std;
