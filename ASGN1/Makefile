@@ -1,22 +1,18 @@
-all: ASGN1
+all: fizzbuzz fib sum reverse frame 
 
-ASGN1: fizzbuzz.o fib.o sum.o reverse.o frame.o
-	g++ fizzbuzz.o fib.o sum.o reverse.o frame.o -o ASGN1
+fizzbuzz: fizzbuzz.cpp
+	g++ fizzbuzz.cpp -o fizzbuzz
 
-fizzbuzz.o: fizzbuzz.cpp
-	g++ -c fizzbuzz.cpp
+fib: fib.cpp
+	g++ fib.cpp -o fib
 
-fib.o: fib.cpp
-	g++ -c fib.cpp
+sum: sum.cpp
+	g++ sum.cpp -o sum
 
-sum.o: sum.cpp
-	g++ -c sum.cpp
+reverse: reverse.cpp
+	g++ reverse.cpp -o reverse
 
-reverse.o: reverse.cpp
-	g++ -c reverse.cpp
-
-frame.o: frame.cpp
-	g++ -c frame.cpp
-
+frame: frame.cpp
+	g++ frame.cpp -o frame
 clean: 
-	rm *o ASGN1 
+	rm -f fizzbuzz sum reverse fib frame 
