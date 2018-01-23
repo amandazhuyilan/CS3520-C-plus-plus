@@ -1,4 +1,4 @@
-### CS3520 C++ Notes
+## CS3520 C++ Notes
 
 ##### ```int main(int argc, char * argv[], char * envp[])```
 
@@ -31,7 +31,5 @@ When deleting a pointer:
 ```delete p``` -> will delete 12 in 0x2222
 
 ``` p = NULL``` -> not necessary, will set 0x0112 to NULL
-
-
 
 
